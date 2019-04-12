@@ -13,5 +13,14 @@
     "sequelize": "^5.3.3",
     "sqlite": "^3.0.3"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashmehta0/node.js-assignment-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yashmehta0/node.js-assignment-/issues"
+  },
+  "homepage": "https://github.com/yashmehta0/node.js-assignment-#readme",
   "description": ""
 }
