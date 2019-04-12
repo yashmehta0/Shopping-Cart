@@ -199,6 +199,7 @@ app.get('/cart/:userid',function(req,res){
    res.sendFile(__dirname+"/public/cart.html");
 })
   
+const PORT = process.env.PORT || 9001
 db.sync({force:true})
 .then(()=>{
      Vendor.create({name:"MicroMax"});
@@ -215,5 +216,5 @@ db.sync({force:true})
      Cart.create({ProductId:2,UserId:1,Quantity:20});
      Cart.create({ProductId:2,UserId:4,Quantity:20});
      Cart.create({ProductId:2,UserId:3,Quantity:20});
-     app.listen(9090)
+     app.listen(PORT)
   })
